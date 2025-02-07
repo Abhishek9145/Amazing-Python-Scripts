@@ -12,7 +12,7 @@ melody_rnn = melody_rnn_sequence_generator.MelodyRnnSequenceGenerator(
     model_name=model_name)
 
 # Set the temperature for music generation (higher values lead to more randomness)
-temperature = 1.0
+temperature = 2.0
 
 # Set the number of music pieces to generate
 num_music_pieces = 3
@@ -22,7 +22,7 @@ steps_per_music_piece = 128
 
 # User input for preferred genre and tempo
 preferred_genre = input(
-    "Enter your preferred genre (e.g., classical, jazz, rock): ")
+    "Enter your preferred genres (e.g., classical, jazz, rock): ")
 preferred_tempo = int(input("Enter your preferred tempo (BPM): "))
 
 # Chord progression for the chosen genre (you can add more genres and progressions)
