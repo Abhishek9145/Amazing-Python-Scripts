@@ -12,7 +12,7 @@ melody_rnn = melody_rnn_sequence_generator.MelodyRnnSequenceGenerator(
     model_name=model_name)
 
 # Set the temperature for music generation (higher values lead to more randomness)
-temperature = 2.0
+temperature = 1.0
 
 # Set the number of music pieces to generate
 num_music_pieces = 3
