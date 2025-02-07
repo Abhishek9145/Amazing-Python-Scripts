@@ -22,7 +22,7 @@ steps_per_music_piece = 128
 
 # User input for preferred genre and tempo
 preferred_genre = input(
-    "Enter your preferred genre (e.g., classical, jazz, rock): ")
+    "Enter your preferred genres (e.g., classical, jazz, rock): ")
 preferred_tempo = int(input("Enter your preferred tempo (BPM): "))
 
 # Chord progression for the chosen genre (you can add more genres and progressions)
